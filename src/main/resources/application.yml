@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: azure-test-application
+  datasource:
+    driverClassName: org.mariadb.jdbc.Driver
+    url: "<your connection string>"
+
+server:
+  port: 7890
+
+logging:
+  level:
+    ROOT: info
+
+azure:
+  storage:
+    container-name: "<any container name>"
+    connection-string: "<your connection string>"
